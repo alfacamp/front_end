@@ -1,0 +1,226 @@
+<html>
+<head>
+	<title>AlphaCamp</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+			<div id="header">
+				<div class="container">
+					<div class="logo">
+						<a href="main.html" style="text-decoration: none;"><p>AlphaCamp</p></a>
+						<a href="test.html" style="text-decoration: none;" class="select test">Тест</a>
+						<a href="theory.html" style="text-decoration: none;" class="select theo">Теория<a>
+					</div>
+					<div class="button">
+						<span><img src="img/man.svg" width="40px"></span>
+						<span>Azamat</span>
+						<span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="block">
+				<a href="#" style="text-decoration:none"><div class="circle one">
+					<img src="img/books.svg" width="45px">
+					<h1>Equation</h1>
+				</div></a>
+				<div class="all">
+				<a href="#" style="text-decoration:none"><div class="circle two">
+					<img src="img/books.svg" width="45px">
+					<h1>Derivative</h1>
+				</div></a>
+				<a href="read.html" style="text-decoration:none"><div class="circle three">
+					<img src="img/books.svg" width="45px">
+					<h1>Logarithm</h1>
+				</div></a>
+				</div>
+			</div>
+
+		</div>
+</body>
+</html>
+
+
+<style type="text/css">	
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('3952.ttf')  format('truetype');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+	background-color: #EBEBEB;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	width: 1050px;
+	margin: 0 auto;
+
+}
+
+#header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: #fff;
+	background-color: #20A8E9;
+}
+.button{
+	float: right;
+	display: table;
+
+}
+
+.logo p{
+	font-family: Lobster;
+	font-size: 40px;
+	color: #fff;
+	vertical-align: middle;
+	display: table-cell;
+	padding-right: 30px;
+
+}
+.logo{
+	float: left;
+	display: table;
+}
+
+.select{
+	color: #fff;
+	vertical-align: middle;
+	display: table-cell;
+	position: relative;
+	top: 3px;
+	font-size: 18px;
+}
+
+.test{
+	width: 80px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.theo{
+	background-color: #1493D1;
+	position: relative;
+	left: 25px;	
+	width: 100px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.test:hover{
+	background-color: #1493D1;
+	
+}
+
+
+.button img {
+  vertical-align: middle;
+  display: table-cell;
+
+}
+.button span {
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.logo, .button{
+	padding: 20px;
+}
+
+.block{
+	width: 600px;
+	height: 500px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+	top: 140px;
+	border-radius: 10px
+}
+
+.circle{
+	background-color: #6666FF;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+.one{
+	position: relative;
+	top: 70px;
+}
+
+.one img, .two img, .three img{
+	position: relative;
+	left: 28px;
+	top: 28px;
+}
+
+.one h1, .two h1, .three h1{
+	text-align: center;
+	margin-top: 65px;
+	font-size: 18px;
+	color: #000;	
+}
+
+.all{
+	display: flex;
+	justify-content: space-between;	
+	width: 450px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+</style>

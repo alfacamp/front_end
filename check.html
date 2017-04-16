@@ -1,0 +1,277 @@
+<html>
+<head>
+	<title>AlphaCamp</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+			<div id="header">
+				<div class="container">
+					<div class="logo">
+						<a href="main.html" style="text-decoration: none;"><p>AlphaCamp</p></a>
+						<a href="test.html" style="text-decoration: none;" class="select test">Тест</a>
+						<a href="theory.html" style="text-decoration: none;" class="select theo">Теория<a>
+					</div>
+					<div class="button">
+						<span><img src="img/man.svg" width="40px"></span>
+						<span>Azamat</span>
+						<span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container2">
+			<div class="block">
+				<h1>
+					<span style="font-weight:bold">1</span>.Log10(5)+Log10(7)?
+				</h1>
+			</div>
+
+			<div class="sub">
+				<div class="sub_block">
+					<h1>log10(32)</h1>
+				</div>
+				<div class="sub_block">
+					<h1>log10(35)</h1>
+				</div>
+			</div>
+			
+			<div class="sub2">
+				<div class="sub_block">
+					<h1>log10(5)</h1>
+				</div>
+				<div class="sub_block">
+					<h1>log10(12)</h1>
+				</div>
+			</div>
+
+			<div class="check">
+				<a href="test.html" style="text-decoration: none;"><span id="one">Выйти</span></a>
+				<a href="answer.html" style="text-decoration: none;"><span id="two">Дальше</span></a>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+<style type="text/css">
+	@font-face {
+    font-family: 'Lobster';
+    src: url('3952.ttf')  format('truetype');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+	background-color: #EBEBEB;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.container2{
+	width: 650px;
+	margin: 0 auto;
+}
+
+
+#header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: #fff;
+	background-color: #20A8E9;
+}
+.button{
+	float: right;
+	display: table;
+
+}
+
+.logo p{
+	font-family: Lobster;
+	font-size: 40px;
+	color: #fff;
+	vertical-align: middle;
+	display: table-cell;
+	padding-right: 30px;
+
+}
+.logo{
+	float: left;
+	display: table;
+}
+
+.select{
+	color: #fff;
+	vertical-align: middle;
+	display: table-cell;
+	position: relative;
+	top: 3px;
+	font-size: 18px;
+}
+
+.test{
+	background-color: #1493D1;
+	width: 80px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.theo{
+	position: relative;
+	left: 25px;	
+	width: 100px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.theo:hover{
+	background-color: #1493D1;
+	
+}
+
+
+.button img {
+  vertical-align: middle;
+  display: table-cell;
+
+}
+.button span {
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.logo, .button{
+	padding: 20px;
+}
+
+.block{
+	width: 550px;
+	height: 250px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+	top: 140px;
+	border-radius: 10px;
+	border: 3px solid #cccccc;
+}
+
+.block h1{
+	font-size: 32px;
+	font-family:monospace;
+	margin: 40px;
+}
+
+.sub_block{
+	width: 200px;
+	height: 75px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 3px solid #cccccc;
+	cursor: pointer;	
+}
+
+.sub_block h1{
+	font-size: 20px;
+	font-family:  monospace;
+	text-align: center;
+	line-height: 75px;
+}
+
+.sub{
+	display: flex;
+	justify-content: space-between;	
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 180px;
+	
+}
+
+.sub2{
+	display: flex;
+	justify-content: space-between;	
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 20px
+	
+}
+
+.check {
+	padding: 50px;	
+	text-align: center;
+}
+
+
+#one {
+	background-color: #FF0000;
+	padding: 12px 28px;
+	color: #fff;
+	border-radius: 30px;
+	font-weight: bold;
+	position: relative;
+	right: 150px
+}
+
+#two{
+	background-color: #00FF00;
+	padding: 12px 23px;
+	color: #fff;
+	border-radius: 30px;
+	font-weight: bold;
+	position: relative;
+	left: 150px
+}
+</style>

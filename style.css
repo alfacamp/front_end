@@ -1,0 +1,276 @@
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('3952.ttf')  format('truetype');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container_2{
+	width: 750px;
+	margin: 0 auto;
+}
+
+
+#header{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: #fff;
+}
+
+.logo{
+	float: left;
+	display: flex;
+	justify-content: space-between;	
+	width: 250px
+}
+.logo p {
+	font-family: Lobster;
+	padding-top: 48px;
+	font-size: 34px;
+	color: #fff;
+
+}
+
+.logo img{
+	padding-top: 20px
+}
+
+.button{
+	float: right;
+	margin-top: 40px;
+	background-color: #fff;
+	color: #ffa500;
+	cursor: pointer;
+	width: 110px;
+	line-height: 48px;
+	border-radius: 50px;
+	height: 48px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.main{
+	background: #fff url(img/main.jpeg) center no-repeat;
+	height: 65vh;
+	background-size: cover;
+	min-width: 320px; 
+	text-align: center;
+	color: #fff;
+	padding-top: 250px;
+	}
+
+.main h1 {
+	font-size: 44px;
+}
+
+.main span{
+	background-color: #ffa500;
+	color: #fff ;
+	cursor: pointer;
+	width: 160px;
+	line-height: 45px;
+	border-radius: 50px;
+	height: 45px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.interesting_lesson{
+	background-color: #f2f2f2;
+	padding: 50px;
+}
+
+
+.owl img{
+	width: 250px;
+}
+
+.couple{
+	display: flex;
+	justify-content: space-between;	
+}
+
+.text{
+	padding-top: 30px;
+}
+.text h3{
+	font-size: 24px;
+	color: #333333;
+}
+
+.text p {
+	font-size: 18px;
+	color: #999999;
+	padding-top: 15px;
+	line-height: 20px;
+}
+
+.obisnenie{
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.container3{
+	margin: 0 auto;
+	width: 900px;
+}
+
+.item{
+	display: flex;
+	justify-content: space-between;	
+}
+
+.text1, .text2{
+	padding-top: 50px;
+	line-height: 20px;
+	color: #808080;
+	font-size: 18px;
+}
+
+.image{
+	padding-top: 30px;
+}
+
+.for_pupil{
+	background-color: #f2f2f2;
+	padding: 30px 0;
+	color: #000;
+}
+
+.container4{
+	margin: 0 auto;
+	width: 800px;
+}
+
+
+
+.pupil_student h3{
+	font-size: 24px;
+	color: #333333;
+	padding-top: 40px;
+}
+
+.pupil_student p {
+	font-size: 18px;
+	color: #999999;
+	line-height: 20px;
+	padding-bottom: 15px;
+}
+
+.footer{
+	background-color: #000033;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.container5{
+	margin: 0 auto;
+	width: 800px;
+}
+
+.input{
+	display: flex;
+	justify-content: space-between;	
+	width: 90%;
+	margin: 0 auto
+}
+.input1 input, .input2 input{
+	background: #fff;
+	padding: 15px 20px;
+	width: 250px;
+	box-shadow: none;
+	font-size: 18px;
+	color: #8d9198;
+	height: 50px;
+	border:1px solid #ccc;
+}
+
+.otpravit span{
+	background-color: #ffa500;
+	color: #fff ;
+	cursor: pointer;
+	width: 160px;
+	line-height: 45px;
+	border-radius: 50px;
+	height: 45px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.footer h1{
+	font-size: 40px;
+	padding-bottom:50px;
+}
+
+.icons{
+	padding-top: 40px;
+	font-size: 24px;
+}
+
+.fa{
+	width: 40px;
+	color: #fff;
+}
+
+.fa:hover{
+	color: #ffa500;
+}
